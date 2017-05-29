@@ -1,6 +1,6 @@
 CREATE DATABASE [PreviewDemoDB]
 GO
-GO
+
 
 USE [PreviewDemoDB]
 GO
