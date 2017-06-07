@@ -1,0 +1,158 @@
+{
+    "datasource.connectionGroups": [
+        {
+            "name": "Local Databases",
+            "id": "B45A5544-2F62-41BB-975F-F6B94DBB0940",
+            "parentId": "845518FA-3725-4084-B1E9-46FEA4B506CD",
+            "color": "#a17d01",
+            "description": ""
+        },
+        {
+            "name": "ROOT",
+            "id": "845518FA-3725-4084-B1E9-46FEA4B506CD",
+            "color": "#515151",
+            "description": ""
+        },
+        {
+            "name": "EAHCS Prod Databases",
+            "id": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "parentId": "845518FA-3725-4084-B1E9-46FEA4B506CD",
+            "color": "#004760",
+            "description": ""
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "server": ".",
+                "database": "aims-dw-ian",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "B45A5544-2F62-41BB-975F-F6B94DBB0940",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "40BE2E8B-AD06-4EEA-820D-673870F51CE1"
+        },
+        {
+            "options": {
+                "server": ".",
+                "database": "aims-patportal-ian",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "B45A5544-2F62-41BB-975F-F6B94DBB0940",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "12A0EBAE-CCF4-40F9-AD5E-2FCB4B571A33"
+        },
+        {
+            "options": {
+                "server": ".",
+                "database": "aims-dwstaging-ian",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "B45A5544-2F62-41BB-975F-F6B94DBB0940",
+            "providerName": "MSSQL",
+            "id": "BA9401F4-9E1C-4116-BA12-FF2AF363EC06"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "aims-dw-prod",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF966"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "aims-dwstaging-prod",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF967"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "aims-patportal-prod",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF968"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "aims-surveys-prod",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF969"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "aims-identity-prod",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF970"
+        },
+        {
+            "options": {
+                "server": "eahcs-sql-prod.database.windows.net",
+                "database": "craigsDb",
+                "authenticationType": "SqlLogin",
+                "user": "ilee",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "53ADD522-4597-4D94-A5B2-6A63CCBFC7AD",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "6650AC0B-C87F-458F-9FD5-2E7933EBF971"
+        }
+    ],
+    "files.autoSave": "afterDelay"
+}

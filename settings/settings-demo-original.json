@@ -1,0 +1,254 @@
+{
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": true,
+    "datasource.connectionGroups": [
+        {
+            "name": "Tools Test Servers",
+            "id": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "parentId": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#654502",
+            "description": ""
+        },
+        {
+            "name": "ROOT",
+            "id": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#654502",
+            "description": ""
+        },
+        {
+            "name": "Tools Azure Test Servers",
+            "id": "00701E62-A501-466F-9739-A3DD668A48CC",
+            "parentId": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#515151",
+            "description": ""
+        },
+        {
+            "name": "SQL Server 2017 HADR",
+            "id": "EE304B1B-4327-41B9-9074-4E5E2B4DE1DA",
+            "parentId": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#004760",
+            "description": ""
+        },
+        {
+            "name": "CICD Azure Prod Servers",
+            "id": "602E1271-1A0D-4AB0-AA22-F528EF545FAA",
+            "parentId": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#771b00",
+            "description": ""
+        },
+        {
+            "name": "Local Dev",
+            "id": "86CDE02C-385F-4C0B-B6F9-DD61F97E549F",
+            "parentId": "21533DBA-43A5-4881-A7DC-7508FC55722D",
+            "color": "#006749",
+            "description": ""
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "server": "SQLTOOLS2008-1",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "F3A306DC-A2A2-4FDD-B7CD-2E58EDB6A7B4"
+        },
+        {
+            "options": {
+                "server": "SQLTOOLS2008",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "EA689FDF-0533-4C63-BFD9-71F9A2C55886"
+        },
+        {
+            "options": {
+                "server": "SQLTools2012RTM\\SQL2012",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "0628A116-7587-436C-AFDF-22627810A79F"
+        },
+        {
+            "options": {
+                "server": "SQLTOOLS2012",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "6BB2E9C4-223E-44F8-B36F-6AE1BD56D9A2"
+        },
+        {
+            "options": {
+                "server": "SQLTOOLS2014",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "5558533F-54B2-4937-B61A-434A58D9331F"
+        },
+        {
+            "options": {
+                "server": "SqlTools2016SP1",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "317A594B-744B-4052-B91A-0CFE73B45090"
+        },
+        {
+            "options": {
+                "server": "SqlTools2016SP1\\SQLEXPRESS",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "id": "2E3F6EE6-6A40-4563-9559-2AC175868BBD"
+        },
+        {
+            "options": {
+                "server": "ssmsv12tests.database.windows.net",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "cloudsa",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "00701E62-A501-466F-9739-A3DD668A48CC",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "D80B1056-ED67-46EE-86EF-2D5F8048AE9D"
+        },
+        {
+            "options": {
+                "server": "Alanrenlinux01",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "EE304B1B-4327-41B9-9074-4E5E2B4DE1DA",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "D133553A-99F7-492D-88B4-C7BC8FB0AFE4"
+        },
+        {
+            "options": {
+                "server": "Alanrenlinux02",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "EE304B1B-4327-41B9-9074-4E5E2B4DE1DA",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "D2B10450-47E8-4A93-B105-6E09BD284D9A"
+        },
+        {
+            "options": {
+                "server": "Alanrenlinux03",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "EE304B1B-4327-41B9-9074-4E5E2B4DE1DA",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "5CA2E0BA-059E-49DA-B4D4-EA3969FC2F54"
+        },
+        {
+            "options": {
+                "server": "SQLTOOLS2005OS0\\SQL2005",
+                "database": "master",
+                "authenticationType": "SqlLogin",
+                "user": "erickang",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "F3143812-C9A2-4098-B4D6-5C53F2E222DB",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "B2CC797F-10B0-49F6-B0ED-561C664C0F62"
+        },
+        {
+            "options": {
+                "server": "ssdtdemosvr.database.windows.net",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sqldatatools",
+                "password": "",
+                "connectTimeout": 30,
+                "applicationName": "carbon"
+            },
+            "groupId": "602E1271-1A0D-4AB0-AA22-F528EF545FAA",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "B153CEF0-DAD3-49A6-8F88-A282974E19E1"
+        },
+        {
+            "options": {
+                "server": "erickang2016",
+                "database": "master",
+                "authenticationType": "SqlLogin",
+                "user": "erickang",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "86CDE02C-385F-4C0B-B6F9-DD61F97E549F",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "9D27323C-16C1-4EAC-9FE6-F5FB82E1CD08"
+        },
+        {
+            "options": {
+                "server": "macos-erickang",
+                "database": "master",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "carbon"
+            },
+            "groupId": "86CDE02C-385F-4C0B-B6F9-DD61F97E549F",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "2C92E1E3-DEE9-40F7-AB58-99951DA2FFD3"
+        }
+    ]
+}
