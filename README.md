@@ -1,4 +1,4 @@
-# Overview
+# Demo script
 
 1. Start Carbon on any OS of your choice. Run it on macOS for the demo. 
 2. Demonstrate the portability of user settings.
@@ -29,3 +29,5 @@
 8. Open Manage dashboard on the server and show Insight widgets. Explain the insight widgets are fully customizable.
     
     8.1 Open user settings and change the insight widget type from count to chart to demonstrate the customizabiity on the fly.
+=======
+
